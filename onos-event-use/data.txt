@@ -1,0 +1,475 @@
+<org.onosproject.acl.impl.AclManager$InternalHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED, HOST_UPDATED
+HostEvent
+Security
+No
+<org.onosproject.artemis.impl.ArtemisMonitorImpl$InternalNetworkConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Monitoring
+No
+<org.onosproject.artemis.impl.ArtemisDeaggregatorImpl$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+PORT_ADDED, PORT_UPDATED
+DeviceEvent
+Monitoring
+No
+<org.onosproject.artemis.impl.ArtemisManager$InternalNetworkConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Monitoring
+No
+<org.onosproject.bgprouter.BgpRouter$InnerDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED
+DeviceEvent
+Traffic Engineering
+No
+<org.onosproject.incubator.net.l2monitoring.cfm.impl.CfmMepManager$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_REMOVED
+DeviceEvent
+Monitoring
+Yes
+<org.onosproject.dhcp.impl.DhcpManager$InternalConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_UPDATED
+NetworkConfigEvent
+Utility
+No
+<org.onosproject.dhcprelay.Dhcp6HandlerImpl$InternalHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED, HOST_MOVED, HOST_REMOVED, HOST_UPDATED
+HostEvent
+Utility
+No
+<org.onosproject.dhcprelay.DhcpRelayManager$InternalConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Utility
+Yes
+<org.onosproject.dhcprelay.DhcpRelayManager$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED
+DeviceEvent
+Utility
+No
+<org.onosproject.dhcprelay.Dhcp4HandlerImpl$InternalHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED, HOST_MOVED, HOST_REMOVED, HOST_UPDATED
+HostEvent
+Utility
+No
+<org.onosproject.evpnopenflow.manager.impl.EvpnManager$InnerHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED, HOST_REMOVED
+HostEvent
+Traffic Engineering
+No
+<org.onosproject.evpnopenflow.manager.impl.EvpnManager$InternalNetworkConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+No
+<org.onosproject.faultmanagement.impl.PollingAlarmProvider$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_AVAILABILITY_CHANGED
+DeviceEvent
+Monitoring
+Yes
+<org.onosproject.faultmanagement.impl.AlarmManager$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_REMOVED
+DeviceEvent
+Monitoring
+Yes
+<org.onosproject.fwd.ReactiveForwarding$InternalTopologyListener: void event(org.onosproject.net.topology.TopologyEvent)>
+TOPOLOGY_CHANGED
+TopologyEvent
+Traffic Engineering
+No
+<org.onosproject.imr.IntentMonitorAndRerouteManager$InternalFlowRuleListener: void event(org.onosproject.net.flow.FlowRuleEvent)>
+RULE_ADDED, RULE_REMOVED, RULE_UPDATED
+FlowRuleEvent
+Traffic Engineering
+Yes
+<org.onosproject.imr.IntentMonitorAndRerouteManager$InternalIntentListener: void event(org.onosproject.net.intent.IntentEvent)>
+INSTALLED, WITHDRAWN
+IntentEvent
+Traffic Engineering
+Yes
+<org.onosproject.inbandtelemetry.impl.IntManager$InternalHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED
+HostEvent
+Monitoring
+No
+<org.onosproject.kafkaintegration.kafka.EventListener$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED, DEVICE_REMOVED, DEVICE_SUSPENDED, DEVICE_UPDATED, PORT_ADDED, PORT_REMOVED, PORT_STATS_UPDATED, PORT_UPDATED
+DeviceEvent
+Integration
+No
+<org.onosproject.kafkaintegration.kafka.EventListener$InternalLinkListener: void event(org.onosproject.net.link.LinkEvent)>
+LINK_ADDED, LINK_REMOVED, LINK_UPDATED
+LinkEvent
+Integration
+No
+<org.onosproject.mcast.impl.MulticastRouteManager$InternalHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED, HOST_MOVED, HOST_REMOVED
+HostEvent
+Traffic Engineering
+No
+<org.onosproject.metrics.intent.IntentMetrics: void event(org.onosproject.net.intent.IntentEvent)>
+FAILED, INSTALL_REQ, INSTALLED, PURGED, WITHDRAW_REQ, WITHDRAWN
+IntentEvent
+Monitoring
+No
+<org.onosproject.metrics.topology.TopologyMetrics$InnerTopologyListener: void event(org.onosproject.net.topology.TopologyEvent)>
+TOPOLOGY_CHANGED
+TopologyEvent
+Monitoring
+No
+<org.onosproject.metrics.topology.TopologyMetrics$InnerHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED, HOST_MOVED, HOST_REMOVED, HOST_UPDATED
+HostEvent
+Monitoring
+No
+<org.onosproject.metrics.topology.TopologyMetrics$InnerLinkListener: void event(org.onosproject.net.link.LinkEvent)>
+LINK_ADDED, LINK_REMOVED, LINK_UPDATED
+LinkEvent
+Monitoring
+No
+<org.onosproject.metrics.topology.TopologyMetrics$InnerDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED, DEVICE_REMOVED, DEVICE_SUSPENDED, DEVICE_UPDATED, PORT_ADDED, PORT_REMOVED, PORT_UPDATED
+DeviceEvent
+Monitoring
+No
+<org.onosproject.mfwd.impl.McastForwarding$McastIntentManager: void event(org.onosproject.net.mcast.McastEvent)>
+ROUTE_ADDED, ROUTE_REMOVED, SINK_ADDED, SINK_REMOVED, SOURCE_ADDED, SOURCE_UPDATED
+McastEvent
+Traffic Engineering
+No
+<org.onosproject.mlb.MastershipLoadBalancer$InnerRegionListener: void event(org.onosproject.net.region.RegionEvent)>
+REGION_MEMBERSHIP_CHANGED, REGION_UPDATED
+RegionEvent
+Utility
+No
+<org.onosproject.mobility.HostMobility$InternalHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_MOVED
+HostEvent
+Utility
+No
+<org.onosproject.newoptical.OpticalPathProvisioner$InternalIntentListener: void event(org.onosproject.net.intent.IntentEvent)>
+INSTALLED, WITHDRAWN
+IntentEvent
+Optical
+No
+<org.onosproject.newoptical.OpticalPathProvisioner$InternalLinkListener: void event(org.onosproject.net.link.LinkEvent)>
+LINK_REMOVED
+LinkEvent
+Optical
+No
+<org.onosproject.odtn.impl.ServiceApplicationComponent$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_REMOVED, PORT_ADDED, PORT_REMOVED
+DeviceEvent
+Traffic Engineering
+No
+<org.onosproject.odtn.impl.ServiceApplicationComponent$InternalNetCfgListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+Yes
+<org.onosproject.odtn.impl.ServiceApplicationComponent$InternalLinkListener: void event(org.onosproject.net.link.LinkEvent)>
+LINK_ADDED, LINK_REMOVED
+LinkEvent
+Traffic Engineering
+No
+<org.onosproject.ofagent.impl.OFSwitchManager$InternalFlowRuleListener: void event(org.onosproject.net.flow.FlowRuleEvent)>
+
+FlowRuleEvent
+Traffic Engineering
+No
+<org.onosproject.ofagent.impl.OFSwitchManager$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+
+DeviceEvent
+Traffic Engineering
+No
+<org.onosproject.openstacknetworking.impl.OpenstackSwitchingHostProvider$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+PORT_ADDED, PORT_REMOVED, PORT_UPDATED
+DeviceEvent
+Integration
+Yes
+<org.onosproject.openstacknetworking.impl.InstancePortManager$InternalHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED, HOST_MOVED, HOST_REMOVED, HOST_UPDATED
+HostEvent
+Integration
+Yes
+<org.onosproject.openstacknode.impl.DefaultOpenstackNodeHandler$InternalOvsdbListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED
+DeviceEvent
+Integration
+Yes
+<org.onosproject.openstacknode.impl.DefaultOpenstackNodeHandler$InternalBridgeListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED, PORT_ADDED, PORT_REMOVED
+DeviceEvent
+Integration
+Yes
+<org.onosproject.openstackvtap.impl.OpenstackVtapManager$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED
+DeviceEvent
+Integration
+Yes
+<org.onosproject.openstackvtap.impl.OpenstackVtapManager$InternalHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED, HOST_MOVED, HOST_REMOVED, HOST_UPDATED
+HostEvent
+Integration
+Yes
+<org.onosproject.net.optical.device.OpticalDeviceServiceView$OpticalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED, DEVICE_REMOVED, DEVICE_SUSPENDED, DEVICE_UPDATED, PORT_ADDED, PORT_REMOVED, PORT_STATS_UPDATED, PORT_UPDATED
+DeviceEvent
+Optical
+Yes
+<org.onosproject.p4tutorial.mytunnel.MyTunnelApp$InternalHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED
+HostEvent
+Traffic Engineering
+No
+<org.onosproject.pathpainter.PathPainterTopovMessageHandler$InternalTopologyListener: void event(org.onosproject.net.topology.TopologyEvent)>
+TOPOLOGY_CHANGED
+TopologyEvent
+GUI
+No
+<org.onosproject.pce.pceservice.PceManager$InternalTopologyListener: void event(org.onosproject.net.topology.TopologyEvent)>
+TOPOLOGY_CHANGED
+TopologyEvent
+Utility
+No
+<org.onosproject.bandwidthmgr.DistributedBandwidthMgmtStore$InternalConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Default
+No
+<org.onosproject.pi.demo.app.common.AbstractUpgradableFabricApp$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED, DEVICE_UPDATED
+DeviceEvent
+Traffic Engineering
+Yes
+<org.onosproject.pim.impl.PimInterfaceManager$InternalNetworkConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+No
+<org.onosproject.pim.impl.PimInterfaceManager$InternalInterfaceListener: void event(org.onosproject.net.intf.InterfaceEvent)>
+INTERFACE_ADDED, INTERFACE_REMOVED
+InterfaceEvent
+Traffic Engineering
+No
+<org.onosproject.pim.impl.PimInterfaceManager$InternalMulticastListener: void event(org.onosproject.net.mcast.McastEvent)>
+ROUTE_ADDED, ROUTE_REMOVED
+McastEvent
+Traffic Engineering
+No
+<org.onosproject.proxyarp.DefaultProxyArp$InternalEdgeListener: void event(org.onosproject.net.edge.EdgePortEvent)>
+EDGE_PORT_ADDED, EDGE_PORT_REMOVED
+EdgePortEvent
+Traffic Engineering
+No
+<org.onosproject.rabbitmq.listener.MQEventHandler$InternalLinkListener: void event(org.onosproject.net.link.LinkEvent)>
+LINK_ADDED, LINK_REMOVED, LINK_UPDATED
+LinkEvent
+Integration
+No
+<org.onosproject.rabbitmq.listener.MQEventHandler$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED, DEVICE_REMOVED, DEVICE_SUSPENDED, DEVICE_UPDATED, PORT_ADDED, PORT_REMOVED, PORT_STATS_UPDATED, PORT_UPDATED
+DeviceEvent
+Integration
+No
+<org.onosproject.rabbitmq.listener.MQEventHandler$InternalTopologyListener: void event(org.onosproject.net.topology.TopologyEvent)>
+TOPOLOGY_CHANGED
+TopologyEvent
+Integration
+No
+<org.onosproject.reactive.routing.ReactiveRoutingConfiguration$InternalNetworkConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+No
+<org.onosproject.roadm.RoadmManager$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_UPDATED
+DeviceEvent
+Optical
+No
+<org.onosproject.ra.RouterAdvertisementManager$InternalNetworkConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+No
+<org.onosproject.ra.RouterAdvertisementManager$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED, DEVICE_UPDATED, PORT_ADDED, PORT_UPDATED
+DeviceEvent
+Traffic Engineering
+No
+<org.onosproject.ra.RouterAdvertisementManager$InternalInterfaceListener: void event(org.onosproject.net.intf.InterfaceEvent)>
+INTERFACE_ADDED, INTERFACE_REMOVED, INTERFACE_UPDATED
+InterfaceEvent
+Traffic Engineering
+No
+<org.onosproject.routeservice.impl.ConfigurationRouteSource$InternalNetworkConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Utility
+No
+<org.onosproject.routeservice.impl.RouteManager$InternalHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED, HOST_MOVED, HOST_REMOVED, HOST_UPDATED
+HostEvent
+Utility
+No
+<org.onosproject.routing.impl.BgpSpeakerNeighbourHandler$InternalInterfaceListener: void event(org.onosproject.net.intf.InterfaceEvent)>
+INTERFACE_ADDED, INTERFACE_REMOVED
+InterfaceEvent
+Traffic Engineering
+No
+<org.onosproject.routing.impl.BgpSpeakerNeighbourHandler$InternalNetworkConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+No
+<org.onosproject.routing.impl.DirectHostManager$InternalHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED
+HostEvent
+Traffic Engineering
+No
+<org.onosproject.routing.cpr.ControlPlaneRedirectManager$InternalNetworkConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+No
+<org.onosproject.routing.fibinstaller.FibInstaller$InternalNetworkConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+No
+<org.onosproject.routing.AsyncDeviceFetcher$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED
+DeviceEvent
+Traffic Engineering
+No
+<org.onosproject.routing.Router$InternalInterfaceListener: void event(org.onosproject.net.intf.InterfaceEvent)>
+INTERFACE_ADDED, INTERFACE_REMOVED
+InterfaceEvent
+Traffic Engineering
+No
+<org.onosproject.scalablegateway.impl.ScalableGatewayManager$InternalConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+No
+<org.onosproject.scalablegateway.impl.ScalableGatewayManager$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_REMOVED, DEVICE_SUSPENDED
+DeviceEvent
+Traffic Engineering
+No
+<org.onosproject.sdnip.PeerConnectivityManager$InternalNetworkConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+No
+<org.onosproject.sdnip.PeerConnectivityManager$InternalInterfaceListener: void event(org.onosproject.net.intf.InterfaceEvent)>
+INTERFACE_ADDED, INTERFACE_REMOVED, INTERFACE_UPDATED
+InterfaceEvent
+Traffic Engineering
+No
+<org.onosproject.sdnip.SdnIpFib$InternalInterfaceListener: void event(org.onosproject.net.intf.InterfaceEvent)>
+INTERFACE_ADDED, INTERFACE_REMOVED, INTERFACE_UPDATED
+InterfaceEvent
+Traffic Engineering
+No
+<org.onosproject.sdnip.SdnIpFib$InternalNetworkConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+No
+<org.onosproject.segmentrouting.SegmentRoutingManager$InternalLinkListener: void event(org.onosproject.net.link.LinkEvent)>
+LINK_ADDED, LINK_REMOVED, LINK_UPDATED
+LinkEvent
+Traffic Engineering
+No
+<org.onosproject.segmentrouting.SegmentRoutingManager$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED, DEVICE_UPDATED, PORT_ADDED, PORT_UPDATED
+DeviceEvent
+Traffic Engineering
+No
+<org.onosproject.segmentrouting.SegmentRoutingManager$InternalHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED, HOST_MOVED, HOST_REMOVED, HOST_UPDATED
+HostEvent
+Traffic Engineering
+No
+<org.onosproject.segmentrouting.SegmentRoutingManager$InternalConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+Yes
+<org.onosproject.segmentrouting.SegmentRoutingManager$InternalTopologyListener: void event(org.onosproject.net.topology.TopologyEvent)>
+TOPOLOGY_CHANGED
+TopologyEvent
+Traffic Engineering
+No
+<org.onosproject.segmentrouting.xconnect.impl.XconnectManager$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED, DEVICE_UPDATED
+DeviceEvent
+Traffic Engineering
+No
+<org.onosproject.simplefabric.SimpleFabricManager$InternalNetworkConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REGISTERED, CONFIG_REMOVED, CONFIG_UNREGISTERED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+No
+<org.onosproject.simplefabric.SimpleFabricManager$InternalDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED, DEVICE_REMOVED, DEVICE_SUSPENDED, DEVICE_UPDATED, PORT_ADDED, PORT_REMOVED, PORT_UPDATED
+DeviceEvent
+Traffic Engineering
+No
+<org.onosproject.simplefabric.SimpleFabricManager$InternalHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED, HOST_MOVED, HOST_REMOVED, HOST_UPDATED
+HostEvent
+Traffic Engineering
+No
+<org.onosproject.simplefabric.SimpleFabricManager$InternalInterfaceListener: void event(org.onosproject.net.intf.InterfaceEvent)>
+INTERFACE_ADDED, INTERFACE_REMOVED, INTERFACE_UPDATED
+InterfaceEvent
+Traffic Engineering
+No
+<org.onosproject.tetopology.management.impl.TeTopologyManager$InternalConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+Yes
+<org.onosproject.virtualbng.VbngManager$InternalHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED
+HostEvent
+Traffic Engineering
+No
+<org.onosproject.vpls.VplsNeighbourHandler$VplsConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REGISTERED, CONFIG_REMOVED, CONFIG_UNREGISTERED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+No
+<org.onosproject.vpls.VplsNeighbourHandler$VplsInterfaceListener: void event(org.onosproject.net.intf.InterfaceEvent)>
+INTERFACE_ADDED, INTERFACE_REMOVED, INTERFACE_UPDATED
+InterfaceEvent
+Traffic Engineering
+No
+<org.onosproject.vpls.VplsOperationManager$VplsOperationExecutor$IntentCompleter: void event(org.onosproject.net.intent.IntentEvent)>
+INSTALL_REQ, INSTALLED, PURGED, REALLOCATING, WITHDRAW_REQ, WITHDRAWN
+IntentEvent
+Traffic Engineering
+No
+<org.onosproject.vpls.VplsManager$VplsHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED, HOST_MOVED, HOST_REMOVED, HOST_UPDATED
+HostEvent
+Traffic Engineering
+No
+<org.onosproject.vpls.config.VplsConfigManager$InternalNetworkConfigListener: void event(org.onosproject.net.config.NetworkConfigEvent)>
+CONFIG_ADDED, CONFIG_REMOVED, CONFIG_UNREGISTERED, CONFIG_UPDATED
+NetworkConfigEvent
+Traffic Engineering
+No
+<org.onosproject.vtn.manager.impl.VtnManager$InnerHostListener: void event(org.onosproject.net.host.HostEvent)>
+HOST_ADDED, HOST_REMOVED, HOST_UPDATED
+HostEvent
+Integration
+No
+<org.onosproject.vtn.manager.impl.VtnManager$InnerDeviceListener: void event(org.onosproject.net.device.DeviceEvent)>
+DEVICE_ADDED, DEVICE_AVAILABILITY_CHANGED
+DeviceEvent
+Integration
+No
